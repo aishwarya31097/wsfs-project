@@ -1,0 +1,13 @@
+{
+    "initialAccrualPeriodDays": "73",
+    "closingDate": "8/13/2021",
+    "firstpaymentDate": "10/25/2021",
+    "trancheInput": [
+        {
+            "note": "",
+            "cusip": "",
+            "originalBalance": "",
+            "interestRate": ""
+        }
+    ]
+}

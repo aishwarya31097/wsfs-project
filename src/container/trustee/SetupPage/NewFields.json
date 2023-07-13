@@ -1,0 +1,22 @@
+{
+    "title":"",
+    "type": "object",
+    "additionalProperties": false,
+    "required":["assetclass"],
+  
+    "properties": {
+        "assetclass": {
+            "type": "string",
+            "title": "Asset Class",
+            "enum":["RRE","CRE","CRP","AUT","CMR","CCD","LES","EST","NPE","NON-ABCP_INV_REP","DDD"]
+           
+        },
+      
+       "LastUpdated": {
+            "type": "string",
+            "title": "Last Updated"
+         
+        }
+       
+    }
+}

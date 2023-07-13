@@ -1,0 +1,41 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "ClosingDate",
+        "OriginalAvailabilityPeriod",
+        "TerminationDate",
+        "AdvanceRate",
+        "TotalCommitment"
+    ],
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+        },
+        "ClosingDate": {
+            "type": "string",
+            "title": "Closing Date"
+        },
+        "OriginalAvailabilityPeriod": {
+            "type": "string",
+            "title": "Original Availability Period End Date"
+        },
+        "TerminationDate": {
+            "type": "string",
+            "title": "Termination Date"
+        },
+        "AdvanceRate": {
+            "type": "string",
+            "title": "Advance Rate"
+        },
+        "TotalCommitment": {
+            "type": "string",
+            "title": "Total Commitment"
+        }
+    
+      
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "FirstName",
+        "LastName",
+        "MobileNumber",
+        "UserName",
+        "OrgName",
+        "Password",
+        "Country"
+    ],
+    "properties": {
+        "FirstName": {
+            "type": "string",
+            "title": "First Name"
+        },
+        "LastName": {
+            "type": "string",
+            "title": "Last Name"
+        },
+        "MobileNumber": {
+            "type": "string",
+            "title": "Mobile Number"
+        },
+        "UserName": {
+            "type": "string",
+            "title": "User Name"
+        },
+        "OrgName": {
+            "type": "string",
+            "title": "Org Name"
+        },
+     
+        "Password": {
+            "type": "string",
+            "title": "Password"
+        },
+        "Country": {
+            "type": "string",
+            "title": "Country"
+        }
+    }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "key": "constdrawacc_deposits_from_principal_collections",
+    "title": "Deposits - From Principal Collections",
+    "value1": ""
+  },
+  {
+    "key": "constdrawacc_withdraw_reimburse",
+    "title": "Withdrawals - Reimbursement of Servicing Advances",
+    "value1": ""
+  },
+  {
+    "key": "constdrawacc_withdraw_funding",
+    "title": "Withdrawals - Funding of Construction Draws",
+    "value1": ""
+  },
+  {
+    "key": "constdrawacc_withdraw_add_loanacc",
+    "title": "Withdrawals - Transfer to Additional Loan Account",
+    "value1": ""
+  },
+  {
+    "key": "constdrawacc_withdraw_add_txnacc",
+    "title": "Withdrawals - Transfer to the Transaction Account",
+    "value1": ""
+  },
+  {
+    "key": "addloanacc_principal_collections",
+    "title": "From Principal Collections",
+    "value1": ""
+  },
+  {
+    "key": "addloanacc_reimburse",
+    "title": "Reimbursement of Servicing Advances",
+    "value1": ""
+  },
+  {
+    "key": "addloanacc_mortgage",
+    "title": "Purchase of Additional Mortgage Loans",
+    "value1": ""
+  },
+  {
+    "key": "addloanacc_constdrawacc",
+    "title": "Transfer to Construction Draw Account",
+    "value1": ""
+  },
+  {
+    "key": "addloanacc_txnacc",
+    "title": "Transfer to the Transaction Account",
+    "value1": ""
+  },
+  {
+    "key": "txnacc_regint",
+    "title": "Regular Interest",
+    "value1": ""
+  },
+  {
+    "key": "txnacc_otherint",
+    "title": "Other Interest",
+    "value1": ""
+  },
+  {
+    "key": "colbal_add_funding",
+    "title": "Additions - Funding of Construction Draws",
+    "value1": ""
+  },
+  {
+    "key": "colbal_add_mortgage",
+    "title": "Additions - Purchase of Additional Mortgage Loans",
+    "value1": ""
+  },
+  {
+    "key": "colbal_add_otherprin",
+    "title": "Additions - Other Principal",
+    "value1": ""
+  },
+  {
+    "key": "colbal_add_loansadded",
+    "title": "Additions - Loans Added",
+    "value1": ""
+  },
+  {
+    "key": "colbal_sub_prinpayment",
+    "title": "Substractions - Principal Payments",
+    "value1": ""
+  },
+  {
+    "key": "colbal_sub_repurchase",
+    "title": "Substractions - Repurchases",
+    "value1": ""
+  },
+  {
+    "key": "colbal_sub_loss",
+    "title": "Substractions - Realized Losses",
+    "value1": ""
+  },
+  {
+    "key": "colbal_sub_loanssubtracted",
+    "title": "Substractions - Loans Substracted",
+    "value1": ""
+  },
+  {
+    "key": "activity_repurchase",
+    "title": "Activity - Repurchases",
+    "value1": ""
+  },
+  {
+    "key": "activity_funding",
+    "title": "Activity - Purchase of Additional Mortgage Loans",
+    "value1": ""
+  },
+  {
+    "key": "activity_draw",
+    "title": "Activity - Funding of Construction Draws",
+    "value1": ""
+  },
+  {
+    "key": "activity_prinpayment",
+    "title": "Activity - Principal Payments",
+    "value1": ""
+  },
+  {
+    "key": "activity_losses",
+    "title": "Activity - Realized Losses",
+    "value1": ""
+  },
+  {
+    "key": "fees_servicer",
+    "title": "Servicing expenses",
+    "value1": ""
+  },
+  {
+    "key": "fees_backupservicer",
+    "title": "Backup Servicing expenses",
+    "value1": ""
+  },
+  {
+    "key": "fees_custodian",
+    "title": "Document Custodian expenses",
+    "value1": ""
+  },
+  {
+    "key": "fees_ownertrustee",
+    "title": "Owner trustee expenses",
+    "value1": ""
+  },
+  {
+    "key": "fees_indenturetrustee",
+    "title": "Indenture Trustee expenses",
+    "value1": ""
+  },
+  {
+    "key": "fees_admin",
+    "title": "Securities Administrator expenses",
+    "value1": ""
+  },
+  {
+    "key": "upb",
+    "title": "UPB < 60 days delinquent excluding non-extension modifications",
+    "value1": ""
+  },
+  {
+    "key": "pop_advance",
+    "title": "(i) unreimbursed Protection Advances",
+    "value1": ""
+  },
+  {
+    "key": "pop_constdrawacc",
+    "title": "(5) to the Construction Draw Account (following the Revolving Period; discretionary amount subject to cap)",
+    "value1": ""
+  },
+  {
+    "key": "pop_toservivcer",
+    "title": "(i) to the Servicer, any unreimbursed Optional Advances, and",
+    "value1": ""
+  },
+  {
+    "key": "pop_toaddloanacc",
+    "title": "(ii) to the Additional Loan Account and to the Construction Draw Account (discretionary amounts)",
+    "value1": ""
+  }
+]

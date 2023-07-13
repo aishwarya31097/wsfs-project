@@ -1,0 +1,21 @@
+{
+    "title":"",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["UserName","OrgName","Password"],
+    "properties": {
+        "UserName": {
+            "type": "string",
+            "title": "User Name"
+        },
+        "Password": {
+            "type": "string",
+            "title": "Password"
+        },
+        "OrgName": {
+            "type": "string",
+            "title": "Org Name",
+            "enum": []
+        }
+    }
+}

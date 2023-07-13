@@ -1,0 +1,36 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "month",
+        "year"
+    ],
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name",
+            "enum": [],
+            "enumNames": []
+        },
+        "month": {
+            "type": "string",
+            "title": "Month",
+            "enum": [],
+            "enumNames": []
+        },
+        "year": {
+            "type": "string",
+            "title": "Year",
+            "enum": [],
+            "enumNames": []
+        },
+        "groupby": {
+            "type": "string",
+            "title": "Group By",
+            "enum": [],
+            "enumNames": []
+        }
+    }
+}

@@ -1,0 +1,170 @@
+[
+    {
+      "key": "CollateralBalance_BeginningBalance",
+      "title": "Collateral Balance - Beginning Balance",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_Purchased",
+      "title": "Collateral Balance - Purchased",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_Draws",
+      "title": "Collateral Balance - Draws",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "Collateral_Balance_PrincipalAdjustments",
+      "title": "Collateral Balance - Principal Adjustments",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "Collateral_Balance_PaidInFull",
+      "title": "Collateral Balance - Paid In Full",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_Curtailments",
+      "title": "Collateral Balance - Curtailments",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_ScheduledPrincipal",
+      "title": "Collateral Balance - Scheduled Principal",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_TransferredThirdPartyPrincipal",
+      "title": "Collateral Balance - Transferred Third Party Principal",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_RepurchasedOrTransferredPrincipal",
+      "title": "Collateral Balance - Repurchased/Transferred Principal",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_NetRealizedLosses",
+      "title": "Collateral Balance - Net Realized Losses",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "CollateralBalance_EndingBalance",
+      "title": "Collateral Balance - Ending Balance",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_GrossInterest",
+      "title": "Interest Remittance - Gross Interest",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_RepurchasedInterest",
+      "title": "Interest Remittance - Repurchased Interest",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_RetainedFees",
+      "title": "Interest Remittance - Retained Fees",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_DeferredInterest",
+      "title": "Interest Remittance - Deferred Interest",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_ReliefActInterestShortfall",
+      "title": "Interest Remittance - Relief Act Interest Shortfall",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_NetNonrecoverableAdvances",
+      "title": "Interest Remittance - Net Nonrecoverable Advances",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "InterestRemittance_InterestLoss",
+      "title": "Interest Remittance - Interest Loss",
+      "value1": "",
+      "value2": ""
+    },
+    {
+        "key": "InterestRemittance_TransferredLoanInterestPayments",
+        "title": "Interest Remittance - Transferred Loan Interest Payments",
+        "value1": "",
+        "value2": ""
+      },
+      {
+        "key": "InterestRemittance_DrawInterest",
+        "title": "Interest Remittance - Draw Interest",
+        "value1": "",
+        "value2": ""
+      },
+      {
+        "key": "InterestRemittance_SLSFees",
+        "title": "Interest Remittance - SLS Fees",
+        "value1": "",
+        "value2": ""
+      },
+      {
+        "key": "PrincipalRemittance_ScheduledPrincipal",
+        "title": "Principal Remittance - Scheduled Principal",
+        "value1": "",
+        "value2": ""
+      },
+    {
+      "key": "PrincipalRemittance_PrepaymentsAndCurtailments",
+      "title": "Principal Remittance - Prepayments & Curtailments",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "PrincipalRemittance_PaidInFull",
+      "title": "Principal Remittance - Paid In Full",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "PrincipalRemittance_NetLiquidationProceeds",
+      "title": "Principal Remittance - Net Liquidation Proceeds",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "PrincipalRemittance_RepurchasedPrincipal",
+      "title": "Principal Remittance - Repurchased Principal",
+      "value1": "",
+      "value2": ""
+    },
+    {
+      "key": "PrincipalRemittance_DrawPrincipal",
+      "title": "Principal Remittance - Draw Principal",
+      "value1": "",
+      "value2": ""
+    },
+    {
+        "key": "PrincipalRemittance_TransferredLoanPrincipalPayments",
+        "title": "Principal Remittance - Transferred Loan Principal Payments",
+        "value1": "",
+        "value2": ""
+      }
+  ]

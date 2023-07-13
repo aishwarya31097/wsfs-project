@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "month",
+        "year"
+   
+    ],
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+        },
+        "month": {
+            "type": "string",
+            "title": "Month",
+            "enum": [ ],
+            "enumNames": [ ]
+        },
+        "year": {
+            "type": "string",
+            "title": "Year",
+            "enum": [ ]
+        },
+        "isInitialAccrualPeriod": {
+            "type": "string",
+            "title": "Is this the Initial Accural Period",
+            "enum": [
+                "yes",
+                "no"
+            ],
+            "enumNames": [
+                "Yes",
+                "No"
+            ],
+            "default": "no"
+        }
+    }
+}

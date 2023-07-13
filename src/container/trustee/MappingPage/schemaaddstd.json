@@ -1,0 +1,45 @@
+
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+  
+    ],
+    "definitions": {
+        "Thing": {
+            "type": "object",
+            "properties": {
+            
+                "def": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Field Name"
+                },
+            
+                "section": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Section",
+                    "enum":["Underlying exposures information section","Collateral information section","Tenant information section","Historical collections information section","Securitisation information section","Tests/Events/Triggers information section","Cash-flow information section","Asset Servicing Information"]
+                },
+                "descp": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Content to Report"
+                }
+            }
+        }
+    },
+    "properties": {
+       
+        "tabledata": {
+            "type": "array",
+            "title": "",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/Thing"
+            }
+        }
+    }
+}

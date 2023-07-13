@@ -1,0 +1,70 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "initialAccrualPeriodDays",
+        "trancheInput",
+        "firstpaymentDate"
+    ],
+    "definitions": {
+        "Thing": {
+            "type": "object",
+            "required": [
+                "note",
+                "cusip",
+                "originalBalance"
+            ],
+            "properties": {
+                "note": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Class"
+                },
+                "cusip": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Cusip"
+                },
+                "originalBalance": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Original Balance"
+                },
+                "interestRate": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Interest Rate"
+                }
+            }
+        }
+    },
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+        },
+        "initialAccrualPeriodDays": {
+            "type": "string",
+            "title": "No. of Days in Initial Accrual Period"
+        },
+        "closingDate": {
+            "type": "string",
+            "title": "Closing Date"
+        },
+        "firstpaymentDate": {
+            "type": "string",
+            "title": "1st Payment Date"
+        },
+      
+        "trancheInput": {
+            "type": "array",
+            "title": "Tranche Input",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/Thing"
+            }
+        }
+    }
+}

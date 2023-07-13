@@ -1,0 +1,226 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+
+        "eventdefault",
+        "earlyredemption",
+        "servicerdefault",
+        "debtdefault",
+
+    
+        "reporttype",
+        "newlogic"
+    ],
+    "properties": {
+      
+        "nextpaymentdate": {
+            "type": "string",
+            "title": "Current Payment Date",
+            "default": "06/30/2023"
+        },
+       
+        "eventdefault": {
+            "type": "string",
+            "title": "Is Event of Default?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+
+        },
+        "servicerdefault": {
+            "type": "string",
+            "title": "Is Servicer Default?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+
+        },
+        "earlyredemption": {
+            "type": "string",
+            "title": "Is Early Redemption?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+
+        },
+        "debtdefault": {
+            "type": "string",
+            "title": "Is Qualifying Debt Opinion has been delivered - Class A-2?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+
+        },
+       
+     
+        "reporttype": {
+            "type": "string",
+            "title": "Report Type",
+            "enum": ["Monthly Paying Agent"],
+            "default": "Monthly Paying Agent"
+        },
+       
+        "Fees": {
+            "title": "Fees",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "Servicing": {
+                    "type": "string",
+                    "title": "Servicing",
+                    "default": "0.00"
+                },
+                "IndentureTrustee": {
+                    "type": "string",
+                    "title": "Indenture Trustee",
+                    "default": "0.00"
+                },
+                "OwnerTrustee": {
+                    "type": "string",
+                    "title": "Owner Trustee",
+                    "default": "0.00"
+                },
+                "Custodian": {
+                    "type": "string",
+                    "title": "Custodian",
+                    "default": "0.00"
+                },
+                "LPMI": {
+                    "type": "string",
+                    "title": "LPMI",
+                    "default": "0.00"
+                }
+
+            }
+        },
+        "Expenses": {
+            "title": "Expenses",
+            "type": "object",
+            "required": [
+            
+            ],
+            "properties": {
+                "Servicing": {
+                    "type": "string",
+                    "title": "Servicing",
+                    "default": "0.00"
+                },
+                "IndentureTrustee": {
+                    "type": "string",
+                    "title": "Indenture Trustee",
+                    "default": "0.00"
+                },
+                "OwnerTrustee": {
+                    "type": "string",
+                    "title": "Owner Trustee",
+                    "default": "0.00"
+                },
+            
+                "Custodian": {
+                    "type": "string",
+                    "title": "Custodian",
+                    "default": "0.00"
+                },
+                "LPMI": {
+                    "type": "string",
+                    "title": "LPMI",
+                    "default": "0.00"
+                },
+                "NoteRegistrar": {
+                    "type": "string",
+                    "title": "Note Registrar",
+                    "default": "0.00"
+                },
+                "CertificateRegistrar": {
+                    "type": "string",
+                    "title": "Certificate Registrar",
+                    "default": "0.00"
+                }
+                
+            }
+        },
+   
+        "PriorityOfPayments": {
+            "title": "Priority of Payments",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "step7pop": {
+                    "type": "string",
+                    "title": "Step 7 of Priority of Payments",
+                    "default": "0.00"
+                }
+            }
+        },
+    
+
+        "additionalDetailsTemplate": {
+            "title": "Additional Details (Report Template)",
+            "type": "object",
+            "required": [
+                "relationshipmanager",
+                "address",
+                "email",
+                "websitereporting"
+            ],
+            "properties": {
+                "relationshipmanager": {
+                    "type": "string",
+                    "title": "Relationship Manager",
+                    "default": "Devon C. A. Reverdito"
+
+                },
+                "address": {
+                    "type": "string",
+                    "title": "Address",
+                    "default":"500 Delaware Ave, 11th Floor, Wilmington, DE 19801"                    
+                },
+                "email": {
+                    "type": "string",
+                    "title": "Email"  ,
+                    "default": "dareverdito@wsfsbank.com"               
+                },
+                "websitereporting": {
+                    "type": "string",
+                    "title": "Website Reporting",
+                    "default":"www.wsfsabsreporting.com"
+
+                },
+                "addtionalfirst": {
+                    "type": "string",
+                    "title": "First page (optional)",
+                    "default": ""
+                },
+                "additionallast": {
+                    "type": "string",
+                    "title": "Last page (optional)",
+                    "default": ""
+                }
+            }
+        },
+        "newlogic": {
+            "type": "string",
+            "title": "New Logic?",
+            "enumNames":["Yes", "No"],
+            "enum":["true","false"],
+            "default": "true"
+        }
+    }
+}

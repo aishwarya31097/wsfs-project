@@ -1,0 +1,98 @@
+{
+    "title":"",
+    "type": "object",
+    "additionalProperties": false,
+    "required":["dealId", "month","year"],
+  
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+           
+        },      
+        "month": {
+            "type": "string",
+            "title": "Month",
+            "enum": ["1", "2", "3","4", "5", "6","7", "8", "9","10", "11", "12"],
+            "enumNames": ["January", "February", "March", "April ", "May ", "June", "July", "August", "September", "October","November","December"]
+        
+        },"year": {
+            "type": "string",
+            "title": "Year",
+            "enum":["2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009"]
+        },
+  
+        "isInitialAccrualPeriod": {
+            "type": "string",
+            "title": "Is this the Initial Accural Period",
+            "enum":["yes","no"]
+        
+        },
+        "collectionPeriodDate": {
+            "type": "string",
+            "title": "Collection Period Date",
+            "default":"9/20/2019"    
+        },
+
+        "cumulativeNetLossRate": {
+            "type": "string",
+            "title": "Cumulative Net Loss Rate Trigger",
+            "default":"3"    
+        
+        },
+
+        "txnCostSuccessorServicer": {
+            "type": "string",
+            "title": "To the Successor Servicer",
+            "description":"Transaction costs due"
+           
+        },
+        "backupTrusteeFee": {
+            "type": "string",
+            "title": "To the Backup Servicer",
+            "description":"To the extent not paid by Upgrade pursuant to the Backup Servicing Agreement"
+           
+        },
+        "indentureTrusteeFee": {
+            "type": "string",
+            "title": "To the Indenture Trustee",
+            "description":"The Indenture Trustee fee"
+           
+        },
+        "ownerTrusteeFee": {
+            "type": "string",
+            "title": "To the Owner Trustee",
+            "description":"The Owner Trustee Fee"
+           
+        },
+        "grantorTrusteeFee": {
+            "type": "string",
+            "title": "To the Grantor Trust Trustee",
+            "description":"The Grantor Trustee Fee"
+           
+        },
+        "adminFee": {
+            "type": "string",
+            "title": "To the Administrator",
+            "description":"The Administrator Fee"
+           
+        },
+        "loanDataAgentFee": {
+            "type": "string",
+            "title": "To the Loan Data Agent",
+            "description":"The Loan Data Agent Fee"
+           
+        },
+        "otherPersonsFee": {
+            "type": "string",
+            "title": "To all other Persons"
+           
+        },
+        "servicerUnpaidExp": {
+            "type": "string",
+            "title": "To the Servicer and the Successor Servicer",
+            "description":"Any accrued and unpaid expenses and indemnities"
+           
+        }
+    }
+}

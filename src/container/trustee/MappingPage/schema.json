@@ -1,0 +1,27 @@
+{
+    "title":"",
+    "type": "object",
+    "additionalProperties": false,
+    "required":["dealId", "month","year"],
+  
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name",
+            "enum":[]
+           
+        },
+      
+        "month": {
+            "type": "string",
+            "title": "Month",
+            "enum":[]
+        
+        },"year": {
+            "type": "string",
+            "title": "Year",
+            "enum":[]
+        }
+       
+    }
+}

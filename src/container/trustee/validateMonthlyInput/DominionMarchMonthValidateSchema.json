@@ -1,0 +1,237 @@
+[
+    {
+        "key": "Interest_Remittance_Interest_Paid",
+        "title": "Interest Remittance - Interest Paid",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Fees_Paid",
+        "title": "Interest Remittance - Fees Paid",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Payoff_Interest_Paid",
+        "title": "Interest Remittance - Payoff Interest Paid",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Other+",
+        "title": "Interest Remittance - Other(+)",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Retained_Servicer_Fees",
+        "title": "Interest Remittance - Retained Servicing Fees",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Payoff_Servicing_Fee",
+        "title": "Interest Remittance - Payoff Servicing Fee",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Asset_Manager_Fee",
+        "title": "Interest Remittance - Asset Manager Fee",
+        "value1": ""
+    },
+    {
+        "key": "Interest_Remittance_Other-",
+        "title": "Interest Remittance - Other(-)",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Beginning_Principal_Balance",
+        "title": "Collateral Balance - Beginning Principal Balance",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Purchased",
+        "title": "Collateral Balance - Purchased",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Funded",
+        "title": "Collateral Balance - Funded",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Capitalized_Interest",
+        "title": "Collateral Balance - Capitalized Interest",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other+",
+        "title": "Collateral Balance - Other(+)",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other(+)(non-cash)",
+        "title": "Collateral Balance - Other(+)(non-cash)",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Paid_In_Full",
+        "title": "Collateral Balance - Paid In Full",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Sale",
+        "title": "Collateral Balance - Sale",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Liquidation",
+        "title": "Collateral Balance - Liquidation",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Repurchase",
+        "title": "Collateral Balance - Repurchase",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Curtailments",
+        "title": "Collateral Balance - Curtailments",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Realized_Losses",
+        "title": "Collateral Balance - Realized Losses",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Scheduled_Principal",
+        "title": "Collateral Balance - Scheduled Principal",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other-",
+        "title": "Collateral Balance - Other(-)",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other(-)(non-cash)",
+        "title": "Collateral Balance - Other(-)(non-cash)",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Beginning_Principal_Balance2",
+        "title": "Collateral Balance - Beginning Principal Balance ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Purchased2",
+        "title": "Collateral Balance - Purchased ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Funded2",
+        "title": "Collateral Balance - Funded ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Capitalized_Interest2",
+        "title": "Collateral Balance - Capitalized Interest ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other+2",
+        "title": "Collateral Balance - Other(+) ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other(+)(non-cash)2",
+        "title": "Collateral Balance - Other(+)(non-cash) ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Paid_In_Full2",
+        "title": "Collateral Balance - Paid In Full ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Sale2",
+        "title": "Collateral Balance - Sale ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Liquidation2",
+        "title": "Collateral Balance - Liquidation ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Repurchase2",
+        "title": "Collateral Balance - Repurchase ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Curtailments2",
+        "title": "Collateral Balance - Curtailments ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Realized_Losses2",
+        "title": "Collateral Balance - Realized Losses ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Scheduled_Principal2",
+        "title": "Collateral Balance - Scheduled Principal ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other-2",
+        "title": "Collateral Balance - Other(-) ",
+        "value1": ""
+    },
+    {
+        "key": "Collateral_Balance_Other(-)(non-cash)2",
+        "title": "Collateral Balance - Other(-)(non-cash) ",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Curtailments",
+        "title": "Principal Remittance - Curtailments",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Paid_In_Full",
+        "title": "Principal Remittance - Paid In Full",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Sale",
+        "title": "Principal Remittance - Sale",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Liquidation",
+        "title": "Principal Remittance - Liquidation",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Repurchase",
+        "title": "Principal Remittance - Repurchase",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Other+",
+        "title": "Principal Remittance - Other(+)",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Sweeped_Amounts",
+        "title": "Principal Remittance - Sweeped Amounts",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Funded",
+        "title": "Principal Remittance - Funded",
+        "value1": ""
+    },
+    {
+        "key": "Principal_Remittance_Other-",
+        "title": "Principal Remittance - Other(-)",
+        "value1": ""
+    }
+]

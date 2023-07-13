@@ -1,0 +1,30 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "send_to",
+        "subject",
+        "message",
+        "report_format"
+    ],
+    "properties": {
+        "send_to": {
+            "type": "string",
+            "title": "Send to"
+        },
+        "subject": {
+            "type": "string",
+            "title": "Subject"
+        },
+        "message": {
+            "type": "string",
+            "title": "Message"
+        },
+        "report_format": {
+            "type": "string",
+            "title": "Report Format",
+            "enum":["PDF","Excel"]
+        }
+    }
+}

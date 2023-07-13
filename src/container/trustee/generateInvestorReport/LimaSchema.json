@@ -1,0 +1,212 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "month",
+        "year"
+    ],
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+        },
+        "month": {
+            "type": "string",
+            "title": "Month",
+            "enum": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "enumNames": [
+                "January",
+                "February",
+                "March",
+                "April ",
+                "May ",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ]
+        },
+        "year": {
+            "type": "string",
+            "title": "Year",
+            "enum": [
+                "2020",
+                "2019",
+                "2018",
+                "2017",
+                "2016",
+                "2015",
+                "2014",
+                "2013",
+                "2012",
+                "2011",
+                "2010",
+                "2009"
+            ]
+        },
+        "isInitialAccrualPeriod": {
+            "type": "string",
+            "title": "Is this the Initial Accural Period",
+            "enum": [
+                "yes",
+                "no"
+            ],
+            "enumNames":[
+                "Yes",
+                "No"
+            ],
+            "default":"no"
+        },
+        "nextpaymentdate": {
+            "type": "string",
+            "title": "Next Payment Date",
+            "default": "7/27/2020"
+        },
+        "eventdefault": {
+            "type": "string",
+            "title": "Is Event of Default?",
+            "enum":["true","false"] ,
+            "enumNames":[
+                "Yes",
+                "No"
+            ],
+            "default":"false"
+        },
+        "servicerdefault": {
+            "type": "string",
+            "title": "Is Servicer Default?",
+            "enum": ["true","false"],
+            "enumNames":[
+                "Yes",
+                "No"
+            ],
+            "default":"false"
+
+        },
+
+        "distributiondate": {
+            "type": "string",
+            "title": "Distribution Date",
+            "default": "7/25/2020"
+        },
+        "reporttype": {
+            "type": "string",
+            "title": "Report Type",
+            "enum": ["Monthly Paying Agent"],
+            "default": "Monthly Paying Agent"
+        },
+        "adjustments": {
+            "title": "May Adjustments",
+            "type": "object",
+            "properties": {
+                "servicingexpenses": {
+                    "type": "string",
+                    "title": "Servicing expenses May Adjustments",
+                    "default":"0.00"
+                },
+                "backupexpenses": {
+                    "type": "string",
+                    "title": "Backup Servicing expenses May Adjustments",
+                    "default":"0.00"
+                },
+                "documentexpenses": {
+                    "type": "string",
+                    "title": "Document Custodian expenses May Adjustments",
+                    "default":"0.00"
+                },
+                "payingagentexpenses": {
+                    "type": "string",
+                    "title": "Paying Agent & Indenture Trustee expenses May Adjustments",
+                    "default":"0.00"
+                }
+            }
+        },
+        "monthlyinputs": {
+            "title": "Additional Details (Monthly Inputs)",
+            "type": "object",
+            "properties": {
+                "purchasedinterest": {
+                    "type": "string",
+                    "title": "% Purchased Interest",
+                    "default":"0.00"
+                },
+                "loanhash": {
+                    "type": "string",
+                    "title": "# of Loans",
+                    "default":"486"
+                },
+                "unpaidprincipal": {
+                    "type": "string",
+                    "title": "$ Unpaid Principal Balance",
+                    "default":"82324934.62"
+                },
+                "documentcustodianfee": {
+                    "type": "string",
+                    "title": "$ Document Custodian Fee",
+                    "default":"300"
+                },
+                "payingagentfee": {
+                    "type": "string",
+                    "title": "$ Paying Agent Fee",
+                    "default":"2500"
+                }
+            }
+        },
+        "additionalDetailsTemplate": {
+            "title": "Additional Details (Report Template)",
+            "type": "object",
+            "properties": {
+                "relationshipmanager": {
+                    "type": "string",
+                    "title": "Relationship Manager"
+                },
+                "address": {
+                    "type": "string",
+                    "title": "Address "
+                },
+                "email": {
+                    "type": "string",
+                    "title": "Email "
+                },
+                "websitereporting": {
+                    "type": "string",
+                    "title": "Website Reporting"
+                },
+                "addtionalfirst": {
+                    "type": "string",
+                    "title": "First page (optional)",
+                    "default": ""
+                },
+                "additionallast": {
+                    "type": "string",
+                    "title": "Last page (optional)",
+                    "default": ""
+                }
+            }
+        },
+        "newlogic": {
+            "type": "string",
+            "title": "New Logic?",
+            "enumNames":["Yes", "No"],
+            "enum":["true","false"],
+            "default": "true"
+        }
+    }
+}

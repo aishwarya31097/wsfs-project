@@ -1,0 +1,74 @@
+[
+    {
+      "key": "Revolvingperiod_Acc_AdditionalMortgageLoans",
+      "title": "REVOLVING PERIOD REINVESTMENT ACCOUNT - Pre Cut-Off - Purchase of Additional Mortgage Loans",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_begbal",
+      "title": "COLLATERAL BALANCE - Beginning Balance",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_loanhash",
+      "title": "COLLATERAL BALANCE - # of Loans",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_mortgage",
+      "title": "COLLATERAL BALANCE - Pre Cut-Off - Purchase of Additional Mortgage Loans",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_mortgage_loancount",
+      "title": "COLLATERAL BALANCE - Pre Cut-Off - Purchase of Additional Mortgage Loans - Loan Count",
+      "value1": ""
+    },
+    {
+        "key": "collateralbal_scheduled_principal",
+        "title": "COLLATERAL BALANCE - Scheduled Principal",
+        "value1": ""
+      },
+    {
+      "key": "collateralbal_principalpayment",
+      "title": "COLLATERAL BALANCE - Principal Payments",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_Repurchases",
+      "title": "COLLATERAL BALANCE - Repurchases",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_realizedlosses",
+      "title": "COLLATERAL BALANCE - Realized Losses",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_loansale",
+      "title": "COLLATERAL BALANCE - Loan Sale",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_liquidation",
+      "title": "COLLATERAL BALANCE - Liquidation Proceeds",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_decreaseloan",
+      "title": "COLLATERAL BALANCE - Decrease in Loan Count",
+      "value1": ""
+    },
+    {
+      "key": "txnacc_regularint",
+      "title": "TRANSACTION ACCOUNT - Regular Interest",
+      "value1": ""
+    },
+    {
+      "key": "txnacc_otherint",
+      "title": "TRANSACTION ACCOUNT - Other Interest",
+      "value1": ""
+    }
+   
+    
+  ]

@@ -1,0 +1,37 @@
+{
+  "dealId": {
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "maturityDate": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "initialAccrualPeriodDays": {
+    "ui:options": {
+      "inline": true
+    }
+  },
+
+  "closingDate": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "firstpaymentDate": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "revolvingperiodenddate": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  }
+}

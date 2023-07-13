@@ -1,0 +1,14 @@
+{
+    "maturityDate": "11/25/2029",
+    "initialAccrualPeriodDays": "30",
+    "closingDate": "11/10/2021",
+    "firstpaymentDate": "12/27/2021",
+    "trancheInput": [
+        {
+            "note": "",
+            "cusip": "",
+            "originalBalance": "",
+            "interestRate": ""
+        }
+    ]
+}

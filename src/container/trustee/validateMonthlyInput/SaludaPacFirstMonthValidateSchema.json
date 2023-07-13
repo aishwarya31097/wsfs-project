@@ -1,0 +1,97 @@
+[
+    {
+      "key": "Revolvingperiod_Acc_AdditionalMortgageLoans",
+      "title": "REVOLVING PERIOD REINVESTMENT ACCOUNT - Additional Mortgage Loans",
+      "value1": ""
+    },
+    {
+      "key": "Revolvingperiod_Acc_UnreimbursedServicingAdvances",
+      "title": "REVOLVING PERIOD REINVESTMENT ACCOUNT - Unreimbursed Servicing Advances",
+      "value1": ""
+    },
+    {
+      "key": "Revolvingperiod_Acc_AssetManagerFee",
+      "title": "REVOLVING PERIOD REINVESTMENT ACCOUNT - Asset Manager Fee",
+      "value1": ""
+    },
+    {
+      "key": "Revolvingperiod_Acc_ServicingFee",
+      "title": "REVOLVING PERIOD REINVESTMENT ACCOUNT - Servicing Fee",
+      "value1": ""
+    },
+    {
+      "key": "Revolvingperiod_Acc_outofpocket",
+      "title": "REVOLVING PERIOD REINVESTMENT ACCOUNT - Out-of-pocket costs & expenses",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_mortgage",
+      "title": "COLLATERAL BALANCE - Purchase of Additional Mortgage Loans",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_principalpayment",
+      "title": "COLLATERAL BALANCE - Principal Payments",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_Repurchases",
+      "title": "COLLATERAL BALANCE - Repurchases",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_realizedlosses",
+      "title": "COLLATERAL BALANCE - Realized Losses",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_liquidation",
+      "title": "COLLATERAL BALANCE - Liquidation Proceeds",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_increaseloan",
+      "title": "COLLATERAL BALANCE - Increase in Loan Count",
+      "value1": ""
+    },
+    {
+      "key": "collateralbal_decreaseloan",
+      "title": "COLLATERAL BALANCE - Decrease in Loan Count",
+      "value1": ""
+    },
+    {
+      "key": "txnacc_regularint",
+      "title": "TRANSACTION ACCOUNT - Regular Interest",
+      "value1": ""
+    },
+    {
+      "key": "txnacc_otherint",
+      "title": "TRANSACTION ACCOUNT - Other Interest",
+      "value1": ""
+    },
+    {
+      "key": "Activity_pif",
+      "title": "Activity - Paid in Full",
+      "value1": ""
+    },
+    {
+      "key": "Activity_mortgage",
+      "title": "Activity - Purchase of Additional Mortgage Loans",
+      "value1": ""
+    },
+    {
+      "key": "Activity_liquidation",
+      "title": "Activity - Liquidation Proceeds",
+      "value1": ""
+    },
+    {
+      "key": "Activity_principalpayment",
+      "title": "Activity - Principal Payments",
+      "value1": ""
+    },
+    {
+      "key": "Activity_realizedlosses",
+      "title": "Activity - Realized Losses",
+      "value1": ""
+    }
+  ]

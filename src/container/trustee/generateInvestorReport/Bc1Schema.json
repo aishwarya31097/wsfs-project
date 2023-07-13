@@ -1,0 +1,381 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+  
+        "nextpaymentdate",
+        "indenturedefault",
+        "servicerdefault",
+    
+        "reporttype",
+        "newlogic"
+    ],
+    "properties": {
+       
+        "nextpaymentdate": {
+            "type": "string",
+            "title": "Current Payment Date",
+            "default": "4/26/2021"
+        },
+        "indenturedefault": {
+            "type": "string",
+            "title": "Is Indenture Default?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+        },
+        "servicerdefault": {
+            "type": "string",
+            "title": "Is Servicer Default?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+
+        },
+        "finalpaymentdate": {
+            "type": "string",
+            "title": "Is Final Payment Date?",
+            "enum": [
+                "false",
+                "true"
+            ],
+            "enumNames":["No","Yes"],
+            "default": "false"
+
+        },
+     
+        "reporttype": {
+            "type": "string",
+            "title": "Report Type",
+            "enum": ["Monthly Paying Agent"],
+            "default": "Monthly Paying Agent"
+        },
+        "Expenses": {
+            "title": "Expenses",
+            "type": "object",
+            "required": [
+            
+            ],
+            "properties": {
+                "ownertrusteeexpense": {
+                    "type": "string",
+                    "title": "Owner Trustee Expenses",
+                    "default": "0.00"
+                },
+                "indenturetrustee": {
+                    "type": "string",
+                    "title": "Indenture Trustee Expenses",
+                    "default": "0.00"
+                },
+                "payingagentexpenses": {
+                    "type": "string",
+                    "title": "Paying Agent Expenses",
+                    "default": "0.00"
+                },
+                "custodianexpense": {
+                    "type": "string",
+                    "title": "Custodial Expenses",
+                    "default": "0.00"
+                },
+                "administratorexpense": {
+                    "type": "string",
+                    "title": "Administrator Expenses",
+                    "default": "0.00"
+                },
+                "assetmanagerexpense": {
+                    "type": "string",
+                    "title": "Asset Manager Expenses",
+                    "default": "0.00"
+                },
+                "indemnityexpenses": {
+                    "type": "string",
+                    "title": "Indemnity Expenses  - Legal Expense",
+                    "default": "0.00"
+                }
+                
+            }
+        },
+        "Fees": {
+            "title": "Fees",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "securitydiligencefee": {
+                    "type": "string",
+                    "title": "Securitization Diligence Provider Fee",
+                    "default": "0.00"
+                }
+            }
+        },
+        "AccountStatements": {
+            "title": "ACCOUNT STATEMENTS",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "reinv": {
+                    "title": "Revolving Period Reinvestment Account",
+                    "type": "object",
+                    "required": [
+                 
+                    ],
+                    "properties": {
+                "reinv_additionalloans": {
+                    "type": "string",
+                    "title": "To Purchase Additional Loans",
+                    "default": "0.00"
+                },
+                "reinv_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                },
+                "reinvestment_loansale": {
+                    "type": "string",
+                    "title": "Deposit - Loan Sale",
+                    "default": "0.00"
+                },
+                "reinvestment_purchaseloans": {
+                    "type": "string",
+                    "title": "Withdrawals - To purchase/fund loans",
+                    "default": "0.00"
+                },
+                "reinvestment_draws": {
+                    "type": "string",
+                    "title": "Withdrawals - To Draws on existing Loans",
+                    "default": "0.00"
+                },
+                "reinvestment_prepaidinterest": {
+                    "type": "string",
+                    "title": "Withdrawals - To Prepaid Interest Reserve Account",
+                    "default": "0.00"
+                }
+            }
+        },
+        "principalremi": {
+            "title": "Principal Remittance",
+            "type": "object",
+            "required": [],
+            "properties": {
+                "principalremi_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                }
+            }
+        },     
+         "interestremi": {
+            "title": "Interest Remittance",
+            "type": "object",
+            "required": [],
+            "properties": {
+                "interestremi_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                }
+            }
+        },
+        "available": {
+            "title": "Available Funds",
+            "type": "object",
+            "required": [],
+            "properties": {
+                "availablefunds_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                },
+                "availablefunds_reinvestment": {
+                    "type": "string",
+                    "title": "Revolving Period Reinvestment Account",
+                    "default": "0.00"
+                },
+                "availablefund_prepaidreserve": {
+                    "type": "string",
+                    "title": "Prepaid Interest Reserve Account",
+                    "default": "278691.79"
+                },
+                "availablefund_asset": {
+                    "type": "string",
+                    "title": "Asset Management Account",
+                    "default": "0.00"
+                },
+                "availablefund_redemption": {
+                    "type": "string",
+                    "title": "Class C-1 Redemption Account",
+                    "default": "0.00"
+                }
+            }
+        },
+        "collateral": {
+            "title": "Collateral Balance",
+            "type": "object",
+            "required": [],
+            "properties": {
+                "collateralbal_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                }
+            }
+        },
+              
+        "prepaidint": {
+            "title": "Prepaid Interest Reserve Account",
+            "type": "object",
+            "required": [],
+            "properties": {
+                "prepaid_paymentacct": {
+                    "type": "string",
+                    "title": "Withdrawals - To Payment Account",
+                    "default": "0.00"
+                },
+                "prepaid_reinvestmentacct": {
+                    "type": "string",
+                    "title": "Withdrawals - To Revolving Period Reinvestment Account",
+                    "default": "0.00"
+                },
+                "prepaid_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                }
+            }
+        },
+        "management": {
+            "title": "Asset Management Account",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "asset_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                }
+            }
+        },
+        "redemamt": {
+            "title": "Class C-1 Redemption Account",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "redemption_collectionperiod": {
+                    "type": "string",
+                    "title": "Adjustments for activities post collection period",
+                    "default": "0.00"
+                }
+            }
+        }
+    }
+        },
+        "PriorityOfPayments": {
+            "title": "Priority of Payments",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "pop_assetmanageaccount": {
+                    "type": "string",
+                    "title": "To Asset Management Account",
+                    "default": "0.00"
+                },
+                "pop_reinvaccount": {
+                    "type": "string",
+                    "title": "To Revolving Period Reinvestment Account",
+                    "default": "0.00"
+                }
+            }
+        },
+        "monthlyinputs": {
+            "title": "Additional Details (Monthly Inputs)",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "purchased": {
+                    "type": "string",
+                    "title": "Purchased",
+                    "default": "0.00"
+                },
+                "funded": {
+                    "type": "string",
+                    "title": "Funded",
+                    "default": "579519.75"
+                },
+                "sweeped_amounts": {
+                    "type": "string",
+                    "title": "Sweeped Amounts",
+                    "default": "0.00"
+                }
+            }
+        },
+
+        "additionalDetailsTemplate": {
+            "title": "Additional Details (Report Template)",
+            "type": "object",
+            "required": [
+                "relationshipmanager",
+                "address",
+                "email",
+                "websitereporting"
+            ],
+            "properties": {
+                "relationshipmanager": {
+                    "type": "string",
+                    "title": "Relationship Manager",
+                    "default": "Devon C. A. Reverdito"
+
+                },
+                "address": {
+                    "type": "string",
+                    "title": "Address",
+                    "default":"500 Delaware Ave, 11th Floor, Wilmington, DE 19801"                    
+                },
+                "email": {
+                    "type": "string",
+                    "title": "Email"  ,
+                    "default": "dareverdito@wsfsbank.com"               
+                },
+                "websitereporting": {
+                    "type": "string",
+                    "title": "Website Reporting",
+                    "default":"www.wsfsabsreporting.com"
+
+                },
+                "addtionalfirst": {
+                    "type": "string",
+                    "title": "First page (optional)",
+                    "default": ""
+                },
+                "additionallast": {
+                    "type": "string",
+                    "title": "Last page (optional)",
+                    "default": ""
+                }
+            }
+        },
+        "newlogic": {
+            "type": "string",
+            "title": "New Logic?",
+            "enumNames":["Yes", "No"],
+            "enum":["true","false"],
+            "default": "true"
+        }
+    }
+}

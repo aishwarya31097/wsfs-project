@@ -1,0 +1,35 @@
+{
+  "dealId": {
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "ClosingDate": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "OriginalAvailabilityPeriod": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "TerminationDate": {
+    "ui:widget": "date",
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "AdvanceRate": {
+    "ui:options": {
+      "inline": true
+    }
+  },
+  "TotalCommitment": {
+    "ui:options": {
+      "inline": true
+    }
+  }
+}

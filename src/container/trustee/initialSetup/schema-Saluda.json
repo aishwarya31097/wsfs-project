@@ -1,0 +1,77 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "maturityDate",
+        "initialAccrualPeriodDays",
+      
+        "trancheInput",
+     
+        "firstpaymentDate",
+        "revolvingperiodenddate"
+    ],
+    "definitions": {
+        "Thing": {
+            "type": "object",
+            "properties": {
+                "note": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Class"
+                },
+                "cusip": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Cusip"
+                },
+                "originalBalance": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Original Balance"
+                },
+                "interestRate": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Interest Rate"
+                }
+            }
+        }
+    },
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+        },
+        "maturityDate": {
+            "type": "string",
+            "title": "Maturity Date"
+        },
+        "initialAccrualPeriodDays": {
+            "type": "string",
+            "title": "No. of Days in Initial Accrual Period"
+        },
+        
+        "closingDate": {
+            "type": "string",
+            "title": "Closing Date"
+        },
+        "firstpaymentDate": {
+            "type": "string",
+            "title": "1st Payment Date"
+        },
+        "revolvingperiodenddate": {
+            "type": "string",
+            "title": "Original Revolving Period End Date"
+        },
+        "trancheInput": {
+            "type": "array",
+            "title": "Tranche Input",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/Thing"
+            }
+        }
+    }
+}

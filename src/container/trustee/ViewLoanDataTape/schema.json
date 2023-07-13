@@ -1,0 +1,23 @@
+{
+    "title": "",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId"
+    ],
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name",
+            "enum": [],
+            "enumNames": []
+        },
+    
+        "groupby": {
+            "type": "string",
+            "title": "Group By",
+            "enum": [],
+            "enumNames": []
+        }
+    }
+}

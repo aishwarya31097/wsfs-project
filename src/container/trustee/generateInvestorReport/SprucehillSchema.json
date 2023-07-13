@@ -1,0 +1,184 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+       
+        "nextpaymentdate",
+  
+        "recorddate",
+        "reporttype",
+        "newlogic"
+    ],
+    "properties": {
+     
+        "nextpaymentdate": {
+            "type": "string",
+            "title": "Current Payment Date",
+            "default": "10/25/2021"
+        },
+        "recorddate": {
+            "type": "string",
+            "title": "Record Date",
+            "default": "09/30/2021"
+        },
+   
+   
+        "reporttype": {
+            "type": "string",
+            "title": "Report Type",
+            "enum": ["Monthly Paying Agent"],
+            "default": "Monthly Paying Agent"
+        },
+        "Fees": {
+            "title": "Fees",
+            "type": "object",
+            "required": [
+         
+            ],
+            "properties": {
+                "subiapayingagentfee": {
+                    "type": "string",
+                    "title": "SUBI A - Paying Agent",
+                    "default": "2500.00"
+                },
+                "subiatrusteefee": {
+                    "type": "string",
+                    "title": "SUBI A - Trustee Fee",
+                    "default": "0.00"
+                },
+                "subibpayingagentfee": {
+                    "type": "string",
+                    "title": "SUBI B - Paying Agent",
+                    "default": "0.00"
+                },
+                "subibtrusteefee": {
+                    "type": "string",
+                    "title": "SUBI B - Trustee Fee",
+                    "default": "500.00"
+                },
+                "feename": {
+                    "type": "string",
+                    "title": "Fee Name",
+                    "default": ""
+                },
+                "feeamount": {
+                    "type": "string",
+                    "title": "Fee Amount",
+                    "default": ""
+                   
+                },
+                "feename1": {
+                    "type": "string",
+                    "title": "Fee Name 1",
+                    "default": ""
+                    
+                },
+                "feeamount1": {
+                    "type": "string",
+                    "title": "Fee Amount 1",
+                    "default": ""
+                   
+                }
+            }
+        },
+        "Expenses": {
+            "title": "Expenses",
+            "type": "object",
+            "required": [
+            
+            ],
+            "properties": {
+                "subiapayingagentexpense": {
+                    "type": "string",
+                    "title": "SUBI A - Paying Agent",
+                    "default": "0.00"
+                },
+                "subiatrusteeexpense": {
+                    "type": "string",
+                    "title": "SUBI A - Trustee Expenses",
+                    "default": "0.00"
+                },
+                "subiAmanualinvoicepayabletoserv": {
+                    "type": "string",
+                    "title": "SUBI A - Manual Invoices Payable to Servicer",
+                    "default": "0.00"
+                },
+                "subibpayingagentexpense": {
+                    "type": "string",
+                    "title": "SUBI B - Paying Agent",
+                    "default": "0.00"
+                },
+                "subibtrusteeexpense": {
+                    "type": "string",
+                    "title": "SUBI B - Trustee Expenses",
+                    "default": "0.00"
+                },
+                "expensename": {
+                    "type": "string",
+                    "title": "Expense Name",
+                    "default": ""
+                    
+                },
+                "expenseamount": {
+                    "type": "string",
+                    "title": "Expense Amount",
+                    "default": ""
+                   
+                }
+            }
+        },
+        
+
+        "additionalDetailsTemplate": {
+            "title": "Additional Details (Report Template)",
+            "type": "object",
+            "required": [
+                "relationshipmanager",
+                "address",
+                "email",
+                "websitereporting"
+            ],
+            "properties": {
+                "relationshipmanager": {
+                    "type": "string",
+                    "title": "Relationship Manager",
+                    "default": "Devon C. A. Reverdito"
+
+                },
+                "address": {
+                    "type": "string",
+                    "title": "Address",
+                    "default":"500 Delaware Ave, 11th Floor, Wilmington, DE 19801"                    
+                },
+                "email": {
+                    "type": "string",
+                    "title": "Email"  ,
+                    "default": "dareverdito@wsfsbank.com"               
+                },
+                "websitereporting": {
+                    "type": "string",
+                    "title": "Website Reporting",
+                    "default":"www.wsfsabsreporting.com"
+
+                },
+                "addtionalfirst": {
+                    "type": "string",
+                    "title": "First page (optional)",
+                    "default": ""
+                },
+                "additionallast": {
+                    "type": "string",
+                    "title": "Last page (optional)",
+                    "default": ""
+                }
+            }
+        },
+        "newlogic": {
+            "type": "string",
+            "title": "New Logic?",
+            "enumNames":["Yes", "No"],
+            "enum":["true","false"],
+            "default": "true"
+        }
+    }
+}

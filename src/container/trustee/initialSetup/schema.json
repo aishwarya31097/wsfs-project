@@ -1,0 +1,68 @@
+{
+  "title": "",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "dealId",
+    "maturityDate",
+    "initialAccrualPeriodDays",
+    "accrualPeriodDays",
+    "trancheInput"
+  ],
+  "definitions": {
+    "Thing": {
+      "type": "object",
+      "properties": {
+        "note": {
+          "type": "string",
+          "default": "",
+          "title": "Notes"
+        },
+        "cusip": {
+          "type": "string",
+          "default": "",
+          "title": "Cusip"
+        },
+        "originalBalance": {
+          "type": "string",
+          "default": "",
+          "title": "Original Balance"
+        },
+        "interestRate": {
+          "type": "string",
+          "default": "",
+          "title": "Interest Rate"
+        }
+      }
+    }
+  },
+  "properties": {
+    "dealId": {
+      "type": "string",
+      "title": "Deal Name"
+    },
+    "maturityDate": {
+      "type": "string",
+      "title": "Maturity Date",
+      "default": "2024/04/20"
+    },
+    "initialAccrualPeriodDays": {
+      "type": "string",
+      "title": "No. of Days in Initial Accrual Period",
+      "default": "54"
+    },
+    "accrualPeriodDays": {
+      "type": "string",
+      "title": "No. of Days in Accrual Period",
+      "default": "30"
+    },
+    "trancheInput": {
+      "type": "array",
+      "title": "Tranche Input",
+      "minItems": 4,
+      "items": {
+        "$ref": "#/definitions/Thing"
+      }
+    }
+  }
+}

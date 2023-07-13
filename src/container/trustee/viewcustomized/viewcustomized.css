@@ -1,0 +1,619 @@
+@font-face {
+    font-family: Sans;
+    src: url(../../fonts/ProductSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: SansSB;
+    src: url(../../fonts/ProductSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: SansB;
+    src: url(../../fonts/ProductSans-Bold.ttf);
+}
+
+
+@font-face {
+    font-family:ProximaNova;
+    src:url(../../fonts/ProximaNova-Regular.ttf);
+}
+@font-face {
+    font-family:ProximaNovaSB;
+    src:url(../../fonts/ProximaNova-Semibold.ttf);
+}
+
+
+
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.wrapper {
+    /* display: flex;
+    align-items: stretch; */
+    /* padding: 30px; */
+    margin-left: 60px !important;
+    /* overflow-x: hidden !important; */
+    /* margin-top: 50px; */
+}
+
+.main {
+    font-family: ProximaNova ;
+    background-color: #E2EAEA !important;
+    min-height: 100vh !important; 
+}
+
+.row {
+    max-width: 100% !important;
+    margin: 0% !important;
+}
+
+#invoicesHead {
+    height: 64px;
+    background-color: #ffffff;
+    width: 100% !important;
+    box-shadow: 0px 2px 3px #00000029;
+    position: relative !important;
+    z-index: 99;
+    /* margin-left:-65px !important; */
+}
+
+#invoicesHead h5 {
+    font-size: 18px;
+    padding: 24px;
+    padding-left: 22px !important;
+    font-family: ProximaNova;
+    color: #2C2C2C;
+    margin: 0px !important;
+    /* width: fit-content; */
+}
+
+
+/* #customizedMain {
+    height: 90vh !important;
+} */
+
+
+/* Left */
+
+#customizedMain #customizedLeft {
+    /* padding: 20px !important; */
+}
+
+#customizedMain #customizedLeft h4 {
+    font-size: 20px;
+    font-family: ProximaNova;
+    color: #2C2C2C;
+    margin: 0px !important;
+}
+
+
+#myProdList {
+    width: 100%;
+    /* margin: 20px !important; */
+    margin-top: 22px !important;
+}
+
+#customizedMain .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    /* grid-row-gap: 20px; */
+    align-content: space-evenly;
+    /* padding: 10px; */
+}
+
+#myProdEach {
+    background-color: white;
+    /* height: 250px; */
+    border-radius: 10px !important;
+    position: relative;
+    box-shadow: 0px 4px 16px #425E5D1A;
+}
+
+#myProdEach h6{
+    font-size: 16px;
+    font-family: ProximaNovaSB;
+    color: #2C2C2C;
+    margin-top: 25px !important;
+    text-align: center !important;
+}
+
+#myProdEach #blueCircle {
+    background-color: #E1FCFB !important;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 7px !important;
+}
+
+#myProdEach #openButton {
+    height: 28px;
+    width: 70%;
+    background-color: white;
+    border: #00716E 1px solid;
+    border-radius: 4px;
+    color: #00716E;
+    text-align: center;
+    font-size: 12px;
+    font-family: ProximaNova !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#myProdEach #openButton:hover {
+    background-color: #00716E;
+    color: white;
+}
+
+#myProdEach #bottom {
+    background-color: #DFF1F0 !important;
+    /* position: absolute; */
+    bottom: 0px !important;
+    height: 34px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#myProdEach #bottom p {
+    color: #00716E;
+    text-align: center;
+    font-size: 12px;
+    font-family: ProximaNova !important;
+}
+
+#customizedLeft #explore {
+    background-color: #fff; 
+    height: 600px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 50px;
+}
+/* #customizedLeft #explore {
+    background-color: #fff; 
+	
+	height:900px !important;
+ 
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+	margin-left:-68px !important;
+    padding: 0px !important;
+} */
+#customizedLeft #explore h4 {
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 30px;
+    font-family: ProximaNova !important;
+    margin-top: 30px !important;
+}
+
+#customizedLeft #explore h6 {
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 14px;
+    font-family: ProximaNova !important;
+    margin-top: 20px;
+}
+
+#customizedLeft #explore #exploreButton {
+    height: 37px;
+    width: 200px;
+    background-color: #F6FEFE;
+    border: #00716E 1px solid;
+    border-radius: 4px;
+    color: #00716E;
+    text-align: center;
+    font-size: 14px;
+    font-family: ProximaNova !important;
+    margin-top: 30px;
+}
+
+#customizedLeft #explore #exploreButton:hover {
+    background-color: #00716E;
+    color: #F6FEFE;
+}
+
+
+
+/* Right */
+
+#customizedMain #productsRight {
+    background-color: #D6DEDE !important;
+    padding: 20px !important;
+}
+
+
+#customizedMain #productsRight h4 {
+    font-size: 20px;
+    font-family: ProximaNova;
+    color: #2C2C2C;
+    margin: 0px !important;
+}
+
+#recProducts #recProductsEach {
+    /* margin-top: 20px !important;
+ 
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px #425E5D1A;
+    padding: 20px !important; */
+    /* margin-top: 20px !important; */
+/* height: 140px; */
+width: 100%;
+background-color:
+#F2FEFE;
+/* border-radius: 10px; */
+box-shadow: 0px 4px 16px
+#425E5D1A;
+padding: 20px !important;
+}
+
+#recProducts #recProductsEach #blueCircle {
+    background-color: #E1FCFB !important;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#recProducts #recProductsEach #right {
+    margin-left: 15px !important;
+    width: 60%;
+}
+
+#recProducts #recProductsEach #right h6 {
+    font-size: 16px;
+    font-family: ProximaNovaSB !important;
+    color: #2C2C2C;  
+}
+#prodDet {
+    font-family: PRoxiMaNovaSB;
+}
+
+#recProducts #recProductsEach #right p {
+    font-size: 12px;
+    font-family: ProximaNova;
+    color: #516463;  
+}
+
+#recProducts #recProductsEach #right #addButton {
+    height: 25px;
+    width: 53px;
+    background-color: white;
+    border: #00716E 1px solid;
+    border-radius: 4px;
+    color: #00716E;
+    text-align: center;
+    font-size: 12px;
+    font-family: ProximaNova !important;
+    /* margin-top: 10px; */
+}
+
+#recProducts #recProductsEach #right #addButton:hover {
+    background-color: #00716E;
+    color: white;
+}
+
+#recProducts #recProductsEach #right #prodDet {
+    color: #00716E !important;
+    margin-left: 30px !important;
+    margin-top: 3px !important;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+}
+
+
+.logo_img {
+
+    position: absolute;
+    top: 12px;
+
+}
+.blue {
+    color: #0D6838 !important;
+    font-family: ProximaNovaSB;
+	cursor: pointer;
+	margin-top:10px !important;
+}
+#save
+{
+    padding:30px !important;
+    color:#0d6838
+}
+.header_first
+{	height: 70px;
+    background-color: #F2F6F6;
+    width: 100% !important;
+    position: relative;
+}
+.header_first h5
+{
+	font-size: 20px;
+	padding: 15px;
+	padding-left: 30px !important; 
+	font-family: ProximaNovaSB;
+	/* margin-top:5px !important; */
+	color: #048c84;
+	padding-top: 23px;
+}
+.header_first .btn.btn-default
+{
+	background:#FFFFFF 0% 0% no-repeat padding-box;	
+	/* box-shadow: 0px 6px 20px #00000029;	 */
+	border: 1px solid#9AB1A5;
+	border-radius: 5px !important;
+	color:#048c84 !important;
+	
+}
+.header_first .btn.btn-default_2
+{
+	background:#048c84 0% 0% no-repeat padding-box;	
+	/* box-shadow: 0px 6px 20px #00000029;	 */
+	border: 1px solid#9AB1A5;
+	border-radius: 5px !important;
+	color:white	
+}
+#settingsimg {
+    color:#626262 !Important;
+	background-color:transparent;
+	border-color:#D4E1E1 !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    /* margin-top: 70px; */
+    /* margin-right: 30px !important; */
+	float: right;
+	padding:10px !important;
+	/* margin-right:-68px !important; */
+	cursor: pointer;
+}
+#plus_icon
+{
+	text-align: left !important;
+	height:20px !important;
+	margin:10px !important;
+	/* margin-left:-68px !important; */
+	cursor: pointer;
+}
+.Pages
+{
+	/* border-bottom:1px solid red !important; */
+	background:#EEF3F3  !important;	
+	margin-top:-5px !important;
+	bottom: 0px !important;
+    position: absolute; 
+}
+#buttonContainer .form-control
+{
+	width:40%  !important;
+	display:initial !important;
+	padding-top:10px !important;
+}
+#buttonContainer
+{
+	/* margin-left:-68px !important;	 */
+}
+#buttonContainer button
+{
+	color: #0D6838 !important;
+	background-color: transparent;
+	border-color: #0D6838 !important;
+	border-radius: 5px !important;
+	font-size:15px !important;
+	padding:10px !important;
+	cursor: pointer;
+}
+#recProducts #recProductsEach_list
+{
+	background-color:  #FBFEFE;
+	justify-content: center !important;
+	border: 1px solid #D4E1E1 !important;
+	border-radius: 10px;
+	margin:10px !important;
+    cursor: pointer;
+    
+	/* box-shadow: 0px 4px 16px #425E5D1A; */
+    padding: 10px !important;
+}
+.form-group select
+{ padding: 12px 15px; 
+    max-width: 100%; 
+    background: none; 
+    width: 100%;
+     height: 48px!important; 
+     margin-top: 10px;
+      border: 2px solid #d1d1d1;
+       border-radius: 4px;
+       font-family:ProximaNova;
+    }
+
+    .button, .input, .optgroup, .select, .textarea
+    {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        margin-top:0px;
+    }
+    #productsRight label
+    {
+        font-family: ProximaNovaSB !important;
+    }
+    .btn.btn-primary_5 {
+        color: #0D6838 !Important;
+        background-color: transparent;
+        border-color: #0D6838 !important;
+        border-radius: 5px !important;
+        font-size: 18px !important;
+        /* margin-top: 15px; */
+        margin-right:30px !important;
+        /* text-align: center; */
+        margin-left:188px !important; 
+        /* float:right; */
+        justify-content: center;
+        cursor:pointer;
+    }
+    .btn.btn-primary_5:hover {
+        color: #fff !Important;
+        background-color: #0D6838;
+        border-color: #0D6838 !important;
+        border-radius: 5px !important;
+        font-size: 18px !important;
+        /* margin-top: 15px; */
+        margin-right:30px !important;
+        /* text-align: center; */
+        margin-left:188px !important; 
+        /* float:right; */
+        justify-content: center;
+        cursor:pointer;
+    }
+ 
+    #dealName {padding-right: 100px;}
+    #myselectYear{padding-right: 195px;
+    font-family: ProximaNova
+    }
+    #recProducts #recProduct_main #recProductsEach_head
+{
+	background-color:  #FBFEFE;
+	justify-content: center !important;
+	border: 1px solid #D4E1E1;
+	border-bottom:3px solid #0D6838 !important;
+	 
+	color:#0D6838 !important;
+}
+#recProducts #recProduct_main
+{
+	background-color:  #FBFEFE;
+	justify-content: center !important;
+	border:1px solid #D4E1E1;
+}
+#MetricTables #billingNav {
+    padding: 10px !important;
+    height: 50px;
+    width: 100%;
+    border-bottom: #D2DFDF 1px solid;
+    padding-top: 15px !important;
+    padding-left: 20px !important;
+}
+
+#MetricTables #billingNav h6 {
+    font-size: 15px;
+    color: #516463;
+    font-family: SansSB;
+    padding: 5px !important;
+    padding-bottom: inherit !important;
+    margin-right: 60px !important;
+}
+
+#MetricTables #billingNav h6:hover {
+    border-bottom:  #0D6838 2px solid;
+    color:  #0D6838 !important;
+    cursor: pointer;
+}
+
+#MetricTables #billingNav h6.selected {
+    border-bottom:  #0D6838 2px solid;
+    color:  #0D6838 !important;
+    cursor: pointer;
+}
+#MetricTables {
+    background-color: white;
+    width: 100%;
+    /* height: 400px; */
+    /* margin-top: 20px !important; */
+    border-radius: 10px;
+}
+#metrics
+{
+    margin-left:150px !important;
+}
+.btn.btn-primary_1 {
+	color: #626262 !Important;
+    background-color: transparent;
+    border-color: #D4E1E1 !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    margin-top: 15px;
+    margin-right:30px !important; 
+    float:right
+}
+#tab_img
+{
+	margin:10px !important;
+}
+/* .btn-primary
+{
+    color:black;
+    background-color: transparent;
+    border-color:#0D6838 !important;
+    font-family: ProxiMaNova !important;
+    float:right;
+    cursor: pointer;
+} */
+.dropdown-item
+{
+    font-family: ProxiMaNova !important;
+}
+#customizedLeft #view_explore {
+    background-color: #fff; 
+    height: 700px;
+    /* width: 100%; */
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+	/* margin-left:-68px !important; */
+    /* padding: 30px !important; */
+}
+.btn.btn-primary{
+
+    color:#fff !Important;
+    background-color:#048c84;
+    border-color:#048c84 !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    /* margin-top: -15px; */
+}
+#customizedLeft #pagelist {
+    margin-top: 21px;
+}
+#customizedLeft #view_explore .form-group
+{
+    margin:20px !important;
+}
+ #month {
+    /* margin-top:0px !important; */
+    padding-right:165px !important;
+}       
+#view_explore .MuiTableCell-head
+{
+     background-color:#DFF1E7 !important;
+}
+#view_explore .MUIDataTableHeadCell-data-127
+{
+    color: black !important;
+    font-family: ProximaNovaSB;
+    
+}
+#view_explore .tableDetails
+{
+    padding:20px !important;
+}
+#customizedLeft .MuiFormControl-root
+{
+     /* padding-top:50px !important; */
+     width:30% !important ;
+    margin-left: 34px;
+    margin-top: 20px;
+} 
+#customizedLeft .MuiFilledInput-root
+{
+    background-color:#fff !important;
+}

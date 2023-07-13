@@ -1,0 +1,304 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "dealId",
+        "month",
+        "year"
+    ],
+    "properties": {
+        "dealId": {
+            "type": "string",
+            "title": "Deal Name"
+        },
+        "month": {
+            "type": "string",
+            "title": "Month",
+            "enum": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "enumNames": [
+                "January",
+                "February",
+                "March",
+                "April ",
+                "May ",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ]
+        },
+        "year": {
+            "type": "string",
+            "title": "Year",
+            "enum": [
+                "2020",
+                "2019",
+                "2018",
+                "2017",
+                "2016",
+                "2015",
+                "2014",
+                "2013",
+                "2012",
+                "2011",
+                "2010",
+                "2009"
+            ]
+        },
+        "isInitialAccrualPeriod": {
+            "type": "string",
+            "title": "Is this the Initial Accural Period",
+            "enum": [
+                "yes",
+                "no"
+            ],
+            "enumNames":[
+                "Yes",
+                "No"
+            ],
+            "default":"no"
+        },
+        "nextinterestpaymentdate": {
+            "type": "string",
+            "title": "Next Interest Payment Date",
+            "default": "8/21/2020"
+        },
+        "eventdefault": {
+            "type": "string",
+            "title": "Is Event of Default?",
+            "enum":["false","true"] ,
+
+            "enumNames": [
+                "No",
+                "Yes"
+            ],
+            "default":"false"
+        },
+        "availabilityperiod": {
+            "type": "string",
+            "title": "Is Availibility Period?",
+            "enum":["true","false"] ,
+            "enumNames":[
+                "Yes",
+                "No"
+            ],
+            "default":"true"
+        },
+        "Drawdate1": {
+            "type": "string",
+            "title": "1 - Draw Date",
+            "default": "7/27/2020"
+        },
+        "Drawdate2": {
+            "type": "string",
+            "title": "2 - Draw Date",
+            "default": "8/12/2020"
+        },
+        "Drawdate3": {
+            "type": "string",
+            "title": "3 - Draw Date",
+            "default": "8/15/2020"
+        },
+     
+        "distributiondate": {
+            "type": "string",
+            "title": "Distribution Date",
+            "default": "8/21/2020"
+        },
+        "reporttype": {
+            "type": "string",
+            "title": "Report Type",
+            "enum": ["Monthly Paying Agent"],
+            "default": "Monthly Paying Agent"
+      
+        },
+   
+        "monthlyinputs": {
+            "title": "Additional Details (Monthly Inputs)",
+            "type": "object",
+            "properties": {
+                "liborrate1": {
+                    "type": "string",
+                    "title": "0 - 1M LIBOR Rate (%)",
+                    "default": "0.00"
+                },
+                "Drawbalance1": {
+                    "type": "string",
+                    "title": "1 - Draw Balance ($) ",
+                    "default": "6465271.97"
+                },
+                "liborrate2": {
+                    "type": "string",
+                    "title": "1 - 1M LIBOR Rate (%)",
+                    "default": "0.16"
+                },
+                "Drawbalance2": {
+                    "type": "string",
+                    "title": "2 - Draw Balance ($) ",
+                    "default": "4943657.14"
+                },
+                "liborrate3": {
+                    "type": "string",
+                    "title": "2 - 1M LIBOR Rate (%)",
+                    "default": "0.11"
+                },
+                "Drawbalance3": {
+                    "type": "string",
+                    "title": "3 - Draw Balance ($)",
+                    "default": "0.00"
+                },
+                "liborrate4": {
+                    "type": "string",
+                    "title": "3 - 1M LIBOR Rate (%)",
+                    "default": "0.00"
+                },
+                "interestpaid": {
+                    "type": "string",
+                    "title": "Interest Paid ",
+                    "default": "36115.73"
+                },
+                "principlepaid": {
+                    "type": "string",
+                    "title": "Principle Paid",
+                    "default": "194528.23"
+                },
+                "repurchases": {
+                    "type": "string",
+                    "title": "Repurchases",
+                    "default": "0.00"
+                },
+                "section1": {
+                    "type": "string",
+                    "title": "Section 3.5(b) Payment",
+                    "default": "0.00"
+                },
+                "section2": {
+                    "type": "string",
+                    "title": "Section 3.5(b) Prepayment Fee",
+                    "default": "0.00"
+
+                },
+                "section3": {
+                    "type": "string",
+                    "title": "Section 3.5(a)(iii) Payment",
+                    "default": "0.00"
+                },
+                "section4": {
+                    "type": "string",
+                    "title": "Section 3.5(a)(iv) Payment",
+                    "default": "0.00"
+                },
+                "section5": {
+                    "type": "string",
+                    "title": "Section 3.5(a)(iv) Prepayment Fee",
+                    "default": "0.00"
+                },
+                "AdministrativeAgent1": {
+                    "type": "string",
+                    "title": "Administrative Agent",
+                    "default": "0.00"
+                                },
+                "wsfs1": {
+                    "type": "string",
+                    "title": "WSFS (Indemnities)",
+                    "default": "0.00"
+                },
+                "AdministrativeAgent2": {
+                    "type": "string",
+                    "title": "Administrative Agent (Indemnities)",
+                    "default": "0.00"
+                },
+                "wsfs2": {
+                    "type": "string",
+                    "title": "WSFS",
+                    "default": "0.00"
+                },
+                "lender": {
+                    "type": "string",
+                    "title": "Lenders",
+                    "default": "0.00"
+                },
+                "servicercompensation": {
+                    "type": "string",
+                    "title": "Addition Servicer Compensation",
+                    "default": "0.00"
+                },
+                "PerformanceTriggerTest1": {
+                    "type": "string",
+                    "title": "Performance Trigger Test (b)",
+                    "default": "0.00"
+                },
+                "PerformanceTriggerTest2": {
+                    "type": "string",
+                    "title": "Performance Trigger Test (c)",
+                    "default": "0.00"
+                },
+                "collateralagent": {
+                    "type": "string",
+                    "title": "WSFS Collateral Agent",
+                    "default": "0.00"
+                },
+                "accountbank": {
+                    "type": "string",
+                    "title": "WSFS Account Bank",
+                    "default": "0.00"
+                }
+            }
+        },
+        "additionalDetailsTemplate": {
+            "title": "Additional Details (Report Template)",
+            "type": "object",
+            "properties": {
+                "relationshipmanager": {
+                    "type": "string",
+                    "title": "Relationship Manager"
+                },
+                "address": {
+                    "type": "string",
+                    "title": "Address "
+                },
+                "email": {
+                    "type": "string",
+                    "title": "Email "
+                },
+                "websitereporting": {
+                    "type": "string",
+                    "title": "Website Reporting"
+                },
+                "addtionalfirst": {
+                    "type": "string",
+                    "title": "First page (optional)",
+                    "default": ""
+                },
+                "additionallast": {
+                    "type": "string",
+                    "title": "Last page (optional)",
+                    "default": ""
+                }
+            }
+        },
+        "newlogic": {
+            "type": "string",
+            "title": "New Logic?",
+            "enumNames":["Yes", "No"],
+            "enum":["true","false"],
+            "default": "true"
+        }
+    }
+}
